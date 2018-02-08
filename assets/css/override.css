@@ -1,0 +1,114 @@
+:root
+{
+  --navy: #080677;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.btn-navy
+{
+  color: #eee;
+  background-color: #080677;
+  border-color: #080677;
+}
+
+.btn-navy:hover
+{
+  color: #eee;
+  background-color: #090000;
+  border-color: #090788;
+}
+
+.btn-navy:focus, .btn-navy.focus
+{
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-navy.disabled, .btn-navy:disabled
+{
+  background-color: #080677;
+  border-color: #080677;
+}
+
+.btn-navy:not([disabled]):not(.disabled):active, .btn-navy:not([disabled]):not(.disabled).active,
+.show > .btn-navy.dropdown-toggle
+{
+  color: #eee;
+  background-color: #090788;
+  border-color: #0a0899;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-outline-navy
+{
+  color: #080677;
+  background-color: transparent;
+  background-image: none;
+  border-color: #080677;
+}
+
+.btn-outline-navy:hover
+{
+  color: #eee;
+  background-color: #080677;
+  border-color: #080677;
+}
+
+.btn-outline-navy:focus, .btn-outline-navy.focus
+{
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-outline-navy.disabled, .btn-outline-navy:disabled
+{
+  color: #080677;
+  background-color: transparent;
+}
+
+.btn-outline-navy:not([disabled]):not(.disabled):active, .btn-outline-navy:not([disabled]):not(.disabled).active,
+.show > .btn-outline-navy.dropdown-toggle
+{
+  color: #eee;
+  background-color: #080677;
+  border-color: #080677;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.badge-navy
+{
+  color: #eee;
+  background-color: #080677;
+}
+
+.badge-navy[href]:focus, .badge-navy[href]:hover
+{
+  color: #eee;
+  text-decoration: none;
+  background-color: #090788;
+}
+
+.bg-navy
+{
+  background-color: #080677 !important;
+}
+
+a.bg-navy:focus, a.bg-navy:hover
+{
+  background-color: #090788 !important;
+}
+
+.border-navy
+{
+  border-color: #080677 !important;
+}
+
+.text-navy
+{
+  color: #080677 !important;
+}
+
+a.text-navy:focus, a.text-navy:hover
+{
+  color: #090788 !important;
+  background-color: #868e96 !important;
+}
