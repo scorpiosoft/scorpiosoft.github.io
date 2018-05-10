@@ -17,37 +17,27 @@ footer
   border: 0;
 }
 
-.folio_row
-{
-  max-height: 300px !important;
-  overflow: hidden;
-}
-
 .folio_box
 {
   width: 100%;
-  max-height: inherit;
-  overflow: inherit;
+  clear: both;
 }
 
 .folio_image
 {
-  width: 100%;
+  width: 35%;
   max-height: inherit;
   overflow: inherit;
-  z-index: 1;
 }
 
-.folio_banner
+.image_left
 {
-  color: #f8f9fa; /* light */
-  background-color: navy;
-  text-align: center;
-  padding: 15px 0 15px 0;
-  /*width: inherit;*/ /* for some reason the banner is inheriting width from the col-sm-6, not the folio-box */
-  width: calc(100% - 30px);
-  position: absolute;
-  bottom: 20px;
-  z-index: 2;
-  margin: auto !important;
+  float: left;
+  margin-right: 20px;
+}
+
+.image_right
+{
+  float: right;
+  margin-left: 20px;
 }
